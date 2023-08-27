@@ -7,7 +7,7 @@
 
 1. Клонируйте репозиторий
 
-`git clone https://github.com/maxRakh/egrul-data.git`
+`git clone https://github.com/maxRakh/egrul-api_data.git`
 
 2. Создайте переменные окружения
 
