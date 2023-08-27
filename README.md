@@ -7,7 +7,7 @@
 
 1. Клонируйте репозиторий
 
-`https://github.com/maxRakh/egrul-data.git`
+`git clone https://github.com/maxRakh/egrul-data.git`
 
 2. Создайте переменные окружения
 
@@ -21,10 +21,18 @@ DB_USER=имя_юзера
 DB_PASSWORD=пароль
 ```
 
-3. Установите зависимости
+3. Создайте виртуальное окружение и активируйте его
+
+`python3 -m venv venv`
+`source venv/bin/activate`
+
+
+4. Установите зависимости
 
 `pip install -r requirements.txt`
 
-4. Укажите необходимые для вашего запроса список кодов ОКВЭД в переменной okved и код региона в переменной region в файле main_api.py
+5. Укажите необходимые для вашего запроса список кодов ОКВЭД в переменной okved и код региона в переменной region в файле main_api.py
 
-5. Запустите файл main_api.py
+6. Запустите файл main_api.py
+
+`python3 main_api.py`
